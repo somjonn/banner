@@ -1,0 +1,188 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+
+
+
+
+
+.banner {
+   height: 600px;
+   width: 300px;
+   background-image: url(./photo/page1/bg1/Rectangle\ 8.png);
+   overflow: hidden;
+}
+.background {
+   background-image: url(./photo/page1/bg1/bg\ 1.png);
+   height: 600px;
+   width: 300px;
+}
+.ichi-ocha {
+   background-image: url(./photo/page1/bg1/ICHI-OCHA_KV-PRODUCT-\(10\).png);
+   height: 600px;
+   width: 300px;
+}
+.light1 {
+   background-image: url(./photo/page1/bg1/light\ 1.svg);
+   height: 580px;
+   width: 300px;
+}
+/* .content {
+
+} */
+
+.upper {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Roboto';
+   font-style: italic;
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 37px;
+   text-align: center;
+   text-transform: uppercase;
+   
+   color: #2D8957;
+}
+/* .lower {
+   
+} */
+
+.try{
+   padding-top: 10px;
+
+}
+
+h2{
+   font-family: 'Roboto';
+   
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 37px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #2D8957;
+   text-shadow: 3px 1px 5px #fff;
+   
+}
+
+
+h3{text-transform: lowercase;
+   font-family: 'roboto';
+   font-style: italic;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 19px;
+   text-align: center;
+   color: #2D8957;}
+   
+
+span{
+   font-family: roboto;
+   font-weight: 900;
+
+}
+
+.boxes{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding: 0 28px;
+}
+.box{
+display: flex;
+width: 112px;
+height: 115px;
+background: linear-gradient(186.15deg, #F7FABA 0.42%, #C5EB9D 63.56%);
+border: 0.918263px solid #FFFFFF;
+border-radius: 27px;
+margin: 8px 0;
+}
+
+
+.box:hover{
+   transform: scale(110%);
+}
+
+
+
+h4{
+   width: 257.46px;
+   font-family: 'Roboto';
+   font-style: italic;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 37px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #2D8957;
+   text-shadow: 3px 1px 5px #fff;
+}
+
+
+.btn{
+width: 133.2px;
+height: 37.11px;
+left: 83px;
+top: 162.86px;
+background: linear-gradient(180deg, #F1F9B7 0%, #C6EC9E 100%);
+border: 0.822127px solid #FFFFFF;
+border-radius: 32.8851px;
+font-family: 'Roboto';
+font-style: italic;
+font-size: 26.3081px;
+line-height: 31px;
+text-transform: uppercase;
+color: #2D8957;
+}
+
+.btn a{
+   text-decoration: none;
+   width: 70.6px;
+height: 27.16px;
+left: 114.3px;
+top: 167.83px;
+
+font-family: 'Roboto';
+font-style: italic;
+font-weight: 700;
+font-size: 26.3081px;
+line-height: 31px;
+text-transform: uppercase;
+
+color: #2D8957;
+}
+.orange-wave {
+   position: relative;
+}
+.orange-wave img{
+   position: absolute;
+   width: 300px;
+   height: 400px;
+   padding-top:25px;
+   left: 0;
+}
+
+.honey {
+   position: relative;
+   
+}
+.honey img{
+   position: absolute;
+   width: 144.15px;
+height: 137.84px;
+left: 142.37px;
+top: 300.52px;
+overflow: hidden;
+z-index: 1;
+}
+.mental {position: relative;
+}
+.mental img{
+position: absolute;
+width: 110.81px;
+height: 109.91px;
+left:180px;
+top: 50px;
+}
